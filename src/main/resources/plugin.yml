@@ -1,0 +1,111 @@
+name: EssentialsLiam
+version: "1.0"
+api-version: "1.15"
+author: Liam (MineMaster836)
+main: liam.essentialsliam.EssentialsLiamMain
+description: the essentials for a minecraft server
+softdepend: [LuckPerms]
+
+commands:
+  ec:
+    description: opens an enderchest
+    permission: essentialsliam.ec
+    permission-message: Sorry you don't have the permission essentialsliam.ec
+  gmc:
+    description: turns the players gamemode to creative
+    permission: essentialsliam.gmc
+    permission-message: Sorry you don't have the permission essentialsliam.gmc
+  gms:
+    description: turns the players gamemode to survival
+    permission: essentialsliam.gms
+    permission-message: Sorry you don't have the permission essentialsliam.gms
+  gmsp:
+    description: turns the players gamemode to spectator
+    permission: essentialsliam.gmsp
+    permission-message: Sorry you don;t have the permisssion essentialsliam.gmsp
+  gma:
+    description: turns the players gamemode to adventure
+    permission: essentialsliam.gma
+    permission-message: Sorry you don't have the permission essentialsliam.gma
+  cc:
+    description: clears chat
+    permission: essentialsliam.cc
+    permission-message: Sorry you don't have the permission essentialsliam.cc
+  heal:
+    description: heals a player
+    permission: essentialsliam.heal
+    permission-message: Sorry you don't have the permission essentialsliam.heal
+  feed:
+    description: feeds a player
+    permission: essentialsliam.feed
+    permission-message: Sorry you don't have the permission essentialsliam.feed
+  staffchat:
+    description: sends a message to other staff
+    permission: essentialsliam.staffchat
+    permission-message: Sorry you don't have the permission essentialsliams.staffchat
+    aliases: sc
+  modchat:
+    description: sends a message to players with the mod role
+    permission: essentialsliam.modchat
+    permission-message: Sorry you don't have the permission essentialsliam.modchat
+    aliases: mc
+  adminchat:
+    description: sends a message to players with the server-admin, plugin-admin and owner role
+    permission: essentialsliam.adminchat
+    permission-message: Sorry you don't have the permission essentialsliam.adminchat
+    aliases: ac
+  builderchat:
+    description: sends a message to players with the builder role
+    permission: essentialsliam.builderchat
+    permission-message: Sorry you don't have the permission essentialsliam.builderchat
+    aliases: bc
+  devchat:
+    description: send a message to players with the dev role
+    permission: essentialsliam.devchat
+    permission-message: Sorry you don't have the permission essentialsliam.devchat
+    aliases: dc
+  sneeze:
+    description: makes the player sneeze
+  blessyou:
+    description: blesses a player
+  disablechat:
+    description: disables the chat
+    aliases: dic
+  enablechat:
+    description: enables the chat
+    aliases: enc
+  msg:
+    description: sends a message to another player
+    aliases: pm
+  r:
+    description: responds to a message
+
+permissions:
+  essentialsliam.ec:
+    default: op
+  essentialsliam.gmc:
+    default: op
+  essetialsliam.gms:
+    default: op
+  essentialsliam.gmsp:
+    default: op
+  essentialsliam.gma:
+    default: op
+  essentialsliam.cc:
+    default: op
+  essentialsliam.cc.bypass:
+    default: not op
+  essentialsliam.heal:
+    default: op
+  essentialsliam.feed:
+    default: op
+  essentialsliam.staffchat:
+    default: op
+  essentialsliam.modchat:
+    default: op
+  essentialsliam.adminchat:
+    default: op
+  essentialsliam.builderchat:
+    default: op
+  essentialsliam.devchat:
+    default: op
